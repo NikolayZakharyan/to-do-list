@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DO LIST</title>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" 
+        crossorigin="anonymous" />
+
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <link
+     rel="stylesheet" 
+     href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TO DO LIST</h1>
+        
+    </header>
+    <!-- <input id="timepicker" width="276" /> -->
+    <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+    </form>
+<div class="todo-container">
+    
+    <ul class="todo-list">
+
+
+        <div class="todo">
+
+            <li class="todo-item"></li>
+            <button class="complete-btn">
+                <i class="fas fa-check"></i>
+            </button>
+            <button class="trash-btn">
+                <i class="fas fa-trash"></i></button>
+        </div>
+
+
+    </ul>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
